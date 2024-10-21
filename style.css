@@ -132,7 +132,7 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #2d2d2d;
+    background: linear-gradient(to right, #550f0f, #161681);
     border-radius: 8px;
     padding: 10px;
     margin-bottom: 30px;
