@@ -1,0 +1,330 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: white;
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+}
+
+.background-image {
+    background-image: url('netflix-background.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    min-height: 80vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+
+.content {
+    text-align: center;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+.logo {
+    width: 150px;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+.sign-in-btn {
+    top: 30px;
+    right: 30px;
+    padding: 15px 30px;
+    background-color: #e50914;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    position: absolute;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.subheading {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+}
+
+
+.cta-text {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+.email-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.email-input {
+    width: 300px;
+    padding: 15px;
+    border: 2px solid transparent;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    font-size: 16px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+
+.email-input::placeholder {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.get-started-btn {
+    padding: 15px 30px;
+    background-color: #e50914;
+    color: white;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.get-started-btn:hover {
+    background-color: #f6121d;
+}
+
+.get-started-btn:focus {
+    outline: none;
+}
+
+
+
+.next-section {
+    background-color: #000000;
+    padding: 40px 20px;
+    text-align: center;
+    color: white;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.promo-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2d2d2d;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+.promo-banner img {
+    margin-right: 15px;
+}
+
+.learn-more-btn {
+    background-color: #e50914;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-left: 15px;
+}
+
+.trending-now h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.dropdown select {
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #333;
+    color: white;
+    border: none;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.movies-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.movie-poster {
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 120px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    font-size: 2em;
+}
+
+.popcorn-icon {
+    width: 120px;
+    position: relative;
+    top: 2px;
+    left: 2px;
+}
+
+.more-reasons {
+    background-color: #000;
+    color: #fff;
+    padding: 50px 20px;
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  .more-reasons h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+  }
+  
+  .reason-card {
+    background: linear-gradient(to right, #550f0f, #161681);
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+  
+  .reason-content {
+    flex: 1;
+  }
+  
+  .reason-content h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .reason-content p {
+    font-size: 1rem;
+    color: #b3b3b3;
+  }
+  
+  .reason-icon {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .reason-icon img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+
+  .faq-section {
+    background-color: #000;
+    color: #fff;
+    padding: 50px 20px;
+  }
+  
+  .faq-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .faq-item {
+    margin-bottom: 10px;
+  }
+  
+  .faq-question {
+    background-color: #303030;
+    color: #fff;
+    padding: 20px;
+    width: 90%;
+    margin: 0 auto;
+    text-align: left;
+    border: none;
+    font-size: 1.3rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .expand-icon {
+    font-size: 1.5rem;
+  }
+  
+  .faq-answer {
+    background-color: #303030;
+    padding: 20px;
+    display: none;
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  .faq-answer p {
+    margin: 0;
+  }
+  
+  .email-signup {
+    margin-top: 50px;
+    text-align: center;
+  }
+  
+  .email-form {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+ 
+  .email-input-2 {
+    width: 400px;
+    padding: 15px;
+    border: 2px solid transparent;
+    background-color: rgba(39, 38, 38, 0.6);
+    color: white;
+    font-size: 16px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+
+
+
+.movie-poster {
+    width: 250px; /* Adjust this value as needed */
+    height: 300px; /* Adjust this value as needed */
+    margin: 10px;
+    overflow: hidden; /* This prevents the image from spilling out */
+  }
+  
+  .movie-poster img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* This property ensures the image covers the area without stretching */
+    object-position: center; /* This centers the image within the container */
+    transition: transform 0.3s ease; /* Optional: for a hover effect */
+  }
